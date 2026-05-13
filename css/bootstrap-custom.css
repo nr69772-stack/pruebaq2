@@ -1,0 +1,201 @@
+:root{
+	--color-general:#66615b;
+	--color-titulos:#111111;
+	--fondo-azul:#f5fafd;
+	--color-naranja:#f5593d;
+	--color-gris:#888;
+	--footer-bg:#252422;
+	--footer-text:#fff;
+}
+
+body{
+	font-family:'Roboto', sans-serif;
+	color:var(--color-general);
+	line-height:1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:'Dosis', sans-serif;
+	color:var(--color-titulos);
+	font-weight:700;
+}
+
+#hero{
+	padding:120px 0;
+	background: linear-gradient(135deg, #f5593d, #ff8a65);
+	color:#fff;
+}
+#hero h1,
+#hero p{
+	color:#fff;
+}
+
+.section-title{
+	margin-bottom:60px;
+}
+
+.section-title h2{
+	font-size:48px;
+	margin-bottom:15px;
+}
+
+
+header{
+	padding:20px 0;
+	background:#fff;
+	position:sticky;
+	top:0;
+	z-index:999;
+	box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+	width:40px;
+	margin-right:10px;
+}
+
+.navbar-brand{
+	font-family:'Dosis', sans-serif;
+	font-weight:700;
+	font-size:28px;
+	color:var(--color-titulos);
+}
+
+.nav-link{
+	margin-left:20px;
+	color:var(--color-general);
+	font-weight:500;
+}
+
+.nav-link:hover{
+	color:var(--color-naranja);
+}
+
+
+#hero{
+	padding:120px 0;
+}
+
+#hero h1{
+	font-size:65px;
+	margin-bottom:25px;
+}
+
+#hero p{
+	font-size:18px;
+	margin-bottom:30px;
+}
+
+.btn-main{
+	background:#fff;
+	color:#f5593d;
+	padding:14px 35px;
+	border-radius:40px;
+	text-decoration:none;
+	font-weight:500;
+	border:none;
+}
+
+.btn-main:hover{
+	background:#252422;
+	color:#fff;
+}
+
+.hero-img{
+	max-width:400px;
+}
+
+
+
+.feature-box{
+	padding:40px 25px;
+	border-radius:15px;
+	transition:0.3s;
+}
+
+.feature-box:hover{
+	box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.feature-box i{
+	font-size:50px;
+	color:var(--color-naranja);
+	margin-bottom:20px;
+}
+
+.feature-box h4{
+	margin-bottom:15px;
+}
+
+
+
+#about img{
+	max-width:450px;
+}
+
+
+#screenshots{
+	background:var(--fondo-azul);
+}
+
+#screenshots img{
+	border-radius:20px;
+}
+
+
+
+.download-btn{
+	display:inline-block;
+	margin:10px;
+	padding:15px 30px;
+	border:1px solid #ddd;
+	border-radius:50px;
+	text-decoration:none;
+	color:var(--color-gris);
+	font-weight:500;
+	transition:0.3s;
+}
+
+.download-btn i{
+	margin-right:10px;
+	font-size:20px;
+}
+
+.download-btn:hover{
+	background:var(--color-naranja);
+	color:#fff;
+	border-color:var(--color-naranja);
+}
+
+
+
+footer{
+	background:var(--footer-bg);
+	padding:30px 0;
+	color:var(--footer-text);
+}
+
+footer p{
+	margin:0;
+}
+
+
+@media (max-width:768px){
+
+	#hero{
+		text-align:center;
+	}
+
+	#hero h1{
+		font-size:45px;
+	}
+
+	.hero-img{
+		margin-top:40px;
+	}
+
+	.section-title h2{
+		font-size:38px;
+	}
+
+}
